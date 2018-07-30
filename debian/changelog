@@ -1,3 +1,11 @@
+capnproto (0.5.3-2ubuntu1.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Prevent compiler from eliding bound checks.
+    - debian/patches/CVE-2017-7892.patch: fix in src/capnp/arena.h
+    - CVE-2017-7892
+
+ -- Eduardo Barretto <eduardo.barretto@canonical.com>  Mon, 30 Jul 2018 19:55:28 -0300
+
 capnproto (0.5.3-2ubuntu1) xenial; urgency=low
 
   * Merge from Debian unstable.  Remaining changes:
